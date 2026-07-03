@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ABC Loan Bank - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+<header>
+  <div class="logo">ABC Loan Bank</div>
+  <nav>
+    <a href="index.html#home">Home</a>
+    <a href="mortgage.html#mortgage">Mortgage</a>
+    <a href="calculator.html#calculator">Calculator</a>
+    <a href="eligibility.html#eligibility">Eligibility</a>
+    <a href="contact.html#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero section">
+  <h1>Welcome to ABC Loan Bank</h1>
+
+  <p>
+    ABC Loan Bank helps customers explore mortgage loans, personal loans, auto loans,
+    eligibility checks, EMI calculation, and loan support in one digital experience.
+  </p>
+
+  <p>
+    This website is created for testing Genesys Digital User Tracking with URL fragments.
+    Each navigation link opens a different page with a unique fragment value.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Mortgage Loans</h3>
+      <p>
+        Customers can compare 30-year fixed, 15-year fixed, and adjustable mortgage
+        options based on financial needs.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>EMI Calculator</h3>
+      <p>
+        Customers can calculate estimated monthly payments based on loan amount,
+        interest rate, and tenure.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Loan Support</h3>
+      <p>
+        Customers can submit questions about rates, eligibility, documentation,
+        or application status.
+      </p>
+    </div>
+  </div>
+
+  <a class="btn" href="mortgage.html#mortgage">Explore Mortgage Rates</a>
+</section>
+
+<footer>© 2026 ABC Loan Bank</footer>
+
+<!-- Paste Genesys Messenger / Digital Tracking script here -->
+
+<script type="text/javascript" charset="utf-8">
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+    environment: 'prod-usw2',
+    deploymentId: '629e7b7d-e7b8-43ed-8bc8-b997efb212d0'
+  });
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
